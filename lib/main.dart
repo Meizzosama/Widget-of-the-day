@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'widgets/editable_chip_field.dart';
+import 'package:flutter_concepts/widgets/searchable_textfield.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.green,
         useMaterial3: true,
       ),
-      home: const EditableChipFieldExample(),
+      home: SearchableTextFieldDemo(),
     );
   }
 }
