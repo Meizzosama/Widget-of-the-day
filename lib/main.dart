@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_concepts/widgets/searchable_textfield.dart';
+import 'package:flutter_concepts/widgets/custom_scrollview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.green,
         useMaterial3: true,
       ),
-      home: SearchableTextFieldDemo(),
+      home: const MyCustomScrollView(),
     );
   }
 }
