@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_concepts/widgets/custom_scrollview.dart';
+import 'package:flutter_concepts/widgets/animated_stack_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.green,
         useMaterial3: true,
       ),
-      home: const MyCustomScrollView(),
+      home: const AnimatedStackWidget(),
     );
   }
 }
