@@ -18,8 +18,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.green,
         useMaterial3: true,
       ),
-      home: const AnimatedStackWidget(),
+      home:  const FlipCardExample(),
     );
   }
 }
-
