@@ -1,16 +1,38 @@
-# flutter_concepts
+# Widget of the Day
 
-A new Flutter project.
+A Flutter project exploring different widgets daily to understand their functionality and usage.
 
-## Getting Started
+## Featured Widgets
 
-This project is a starting point for a Flutter application.
+### 1. Animated Stack Widget
+A widget that creates an animated stack effect, useful for layered UI elements with transitions.
 
-A few resources to get you started if this is your first Flutter project:
+### 2. Backdrop Filter
+Applies a blur effect to the background, giving a frosted glass look to UI elements.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 3. Custom ScrollView
+A highly customizable scroll view that allows combining different scrolling effects like slivers.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 4. Drawer
+Provides a side navigation panel that can slide in from the left or right.
+
+### 5. Editable Chip Field
+An input field with chip-like elements that can be added, edited, and removed dynamically.
+
+### 6. Flip Card
+A widget that allows flipping between front and back views with smooth animations.
+
+### 7. Searchable TextField
+A text field with real-time search functionality, filtering content dynamically as the user types.
+
+## Why This Project?
+This project aims to explore Flutter's widget ecosystem by experimenting with different widgets, understanding their properties, and seeing their real-world applications.
+
+## Contributions
+Feel free to explore, fork, and contribute by adding more widgets or improving existing ones.
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+Happy Coding! 🚀
